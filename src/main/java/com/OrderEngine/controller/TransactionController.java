@@ -54,7 +54,7 @@ public class TransactionController {
 
     @ResponseBody
     @RequestMapping(value="/unfulfilledOrders" , method = {RequestMethod.GET,RequestMethod.POST})
-    public ArrayList<ArrayList<Objects>> showUnfulfilledOrders()
+    public List<Object> showUnfulfilledOrders()
     {
         return transactionService.showUnfulfilledOrders();
     }
