@@ -1,6 +1,9 @@
 Data Structures currently used - List
+
 Data Structure to be used for optimized Algo - Priority Queue
+
 Database - MongoDb
+
 Tech Stack - Spring Boot.
 
 
