@@ -1,4 +1,5 @@
-Data Structures used - List
+Data Structures currently used - List
+Data Structure to be used for optimized Algo - Priority Queue
 Database - MongoDb
 Tech Stack - Spring Boot.
 
@@ -19,6 +20,10 @@ step 3: Now , the buying order for each company will be compared with selling or
 step 4: In case the buying order quantity becomes 0 then the next buy order will be executed , and if current selling order quantity becomes 0 , then the next selling order is mapped with current buy order.
 
 step 5: Repeat the above steps untill all buy order is iterated.
+
+Brute Force Time Complexity = O(no of Buy Orders x no of Sell Orders)
+Optimized Time Complexity = O(log(no of buy orders))
+
 
         
  
